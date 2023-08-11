@@ -1,0 +1,12 @@
+const path = require('path');
+const base_name = path.basename('D:\\xampp\\htdocs\\Narendra\\node\\pathModule\\index.js');
+console.log("File Name:",base_name);
+const dir_name = path.dirname('D:\\xampp\\htdocs\\Narendra\\node\\pathModule\\index.js');
+console.log("Dir Name:",dir_name);
+const ext_name = path.extname('D:\\xampp\\htdocs\\Narendra\\node\\pathModule\\index.js');
+console.log("Extension Name:",ext_name);
+//console.log(process.env.PATH);
+const path_name = path.parse('D:\\xampp\\htdocs\\Narendra\\node\\pathModule\\index.js');
+console.log("path Name:",path_name);
+console.log("Root:",path_name.root);
+console.log("File name:",path_name.name);
